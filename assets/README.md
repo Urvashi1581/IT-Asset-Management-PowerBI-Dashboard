@@ -10,11 +10,10 @@ Using a Kaggle dataset, the solution simulates a real enterprise ITAM environmen
 - IT lifecycle reporting (EOL, Warranty, Risk)  
 - Professional dashboard design & visualization  
 
----
 
-## 📁 Dataset
+## 📁 Dataset**Source:** 
 
-**Source:** Kaggle — IT Asset Management Dataset  
+Kaggle — IT Asset Management Dataset  
 **Rows:** 50  
 **Columns include:**
 
@@ -36,26 +35,16 @@ Using a Kaggle dataset, the solution simulates a real enterprise ITAM environmen
 - `WarrantyStatus`
 - `IsUnderutilized`
 
----
-
 ## 🧩 Data Modeling
 
-The data model consists of:
+The model uses:
 
-### **Fact Table**
-- `cleaned_asset_management_data`
-
-### **Date Dimension Table**
-Created using DAX:
-
-DateTable =
-ADDCOLUMNS(
-CALENDAR(MIN(cleaned_asset_management_data[PurchaseDate]),
-MAX(cleaned_asset_management_data[WarrantyExpiry])),
-"Year", YEAR([Date]),
-"Month", FORMAT([Date], "MMM"),
-"YearMonth", FORMAT([Date], "YYYY-MM")
-)
+- **Fact Table:** cleaned_asset_management_data  
+- **Date Dimension Table:** Custom DAX-generated  
+- **Relationships:**  
+  - PurchaseDate → DateTable[Date]  
+  - WarrantyExpiry → DateTable[Date]  
+  - LicenseExpiry → DateTable[Date]
 
 
 ### **Relationships**
@@ -63,12 +52,10 @@ MAX(cleaned_asset_management_data[WarrantyExpiry])),
 - `WarrantyExpiry` → `DateTable[Date]`  
 - `LicenseExpiry` → `DateTable[Date]`
 
----
 
 ## 🖥 Dashboard Pages
 
 # **PAGE 1 — Executive Summary Dashboard**
-*(Insert your screenshot below)*
 
 ![Executive Dashboard](assets/dashboard_page1.png)
 
@@ -93,10 +80,8 @@ MAX(cleaned_asset_management_data[WarrantyExpiry])),
 - Warranty Status Donut  
 - Total Cost by Year (Line Chart)  
 
----
 
 # **PAGE 2 — Lifecycle & Optimization Dashboard**
-*(Insert your screenshot below)*
 
 ![Lifecycle Dashboard](assets/dashboard_page2.png)
 
@@ -119,7 +104,7 @@ MAX(cleaned_asset_management_data[WarrantyExpiry])),
 - Underutilized Asset Distribution  
 - High-Risk Asset Table (AssetID, Type, Department, Risk, Warranty, Dates)  
 
----
+
 
 ## 🧠 Technical Skills Demonstrated
 
@@ -138,9 +123,17 @@ MAX(cleaned_asset_management_data[WarrantyExpiry])),
 - Risk Analysis & Categorization  
 - ITAM/CMDB Reporting Fundamentals  
 
----
+
 
 ## 📂 Folder Structure
+
+IT-Asset-Management-PowerBI-Dashboard/
+│── IT_Asset_Management.pbix
+│── README.md
+│── assets/
+│ ├── dashboard_page1.png
+│ ├── dashboard_page2.png
+│ └── kpi_summary.png
 
 IT-Asset-Management-PowerBI-Dashboard/
 │── IT_Asset_Management.pbix
