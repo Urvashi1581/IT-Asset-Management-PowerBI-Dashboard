@@ -57,20 +57,21 @@ The model uses:
 
 # **PAGE 1 — Executive Summary Dashboard**
 
-![Executive Dashboard](assets/dashboard_page1.png)
+![Dashboard Page 1](assets/dashboard_page1.png)
+
 
 ###  **Key Highlights**
 
-- ✔ Total Asset Count  
-- ✔ Active vs. Inactive Assets  
-- ✔ Underutilized Assets  
-- ✔ End-of-Life (EOL) Forecast  
-- ✔ Out-of-Warranty Assets  
-- ✔ Total Cost Summary  
-- ✔ Asset Distribution by Department & AssetType  
-- ✔ Warranty Status Breakdown  
-- ✔ Cost Trends Over Years  
-- ✔ Slicers for Department, Location, AssetType, Status, RiskLevel  
+- Total Asset Count  
+- Active vs. Inactive Assets  
+- Underutilized Assets  
+- End-of-Life (EOL) Forecast  
+- Out-of-Warranty Assets  
+- Total Cost Summary  
+- Asset Distribution by Department & AssetType  
+- Warranty Status Breakdown  
+- Cost Trends Over Years  
+- Slicers for Department, Location, AssetType, Status, RiskLevel  
 
 ### **Visuals on This Page**
 
@@ -83,7 +84,7 @@ The model uses:
 
 # **PAGE 2 — Lifecycle & Optimization Dashboard**
 
-![Lifecycle Dashboard](assets/dashboard_page2.png)
+![Dashboard Page 2](assets/dashboard_page2.png)
 
 ###  **Key Highlights**
 
