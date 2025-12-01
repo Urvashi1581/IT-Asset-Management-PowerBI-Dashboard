@@ -130,13 +130,17 @@ The model uses:
 
 ##  Folder Structure
 
+## 📂 Folder Structure
+
+```text
 IT-Asset-Management-PowerBI-Dashboard/
-│── IT_Asset_Management.pbix
-│── README.md
-│── assets/
-│ ├── dashboard_page1.png
-│ ├── dashboard_page2.png
-│ └── kpi_summary.png
+├── IT_Asset_Management.pbix
+├── README.md
+└── assets/
+    ├── dashboard_page1.png
+    ├── dashboard_page2.jpg
+    └── dashboard_page2.jpg
+
 
 
 
