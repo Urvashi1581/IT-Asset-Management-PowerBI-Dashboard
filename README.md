@@ -52,6 +52,8 @@ The model uses:
 - `WarrantyExpiry` → `DateTable[Date]`  
 - `LicenseExpiry` → `DateTable[Date]`
 
+![Dashboard Page 1](assets/dashboard_page3.png)
+
 
 ##  Dashboard Pages
 
