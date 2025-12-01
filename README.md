@@ -52,7 +52,7 @@ The model uses:
 - `WarrantyExpiry` → `DateTable[Date]`  
 - `LicenseExpiry` → `DateTable[Date]`
 
-![Dashboard Page 1](assets/dashboard_page3.png)
+![Dashboard Page 3](assets/dashboard_page3.png)
 
 
 ##  Dashboard Pages
@@ -86,7 +86,7 @@ The model uses:
 
 # **PAGE 2 — Lifecycle & Optimization Dashboard**
 
-![Dashboard Page 2](assets/dashboard_page1.png)
+![Dashboard Page 2](assets/dashboard_page2.png)
 
 ###  **Key Highlights**
 
