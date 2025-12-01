@@ -1,4 +1,4 @@
-# 📊 IT Asset Management Power BI Dashboard  
+# IT Asset Management Power BI Dashboard  
 ### Complete IT Asset Lifecycle, Warranty, Risk, Utilization & Cost Analysis  
 
 This project presents a comprehensive **IT Asset Management (ITAM)** analytics dashboard built using **Power BI**.  
@@ -11,7 +11,7 @@ Using a Kaggle dataset, the solution simulates a real enterprise ITAM environmen
 - Professional dashboard design & visualization  
 
 
-## 📁 Dataset**Source:** 
+## Dataset**Source:** 
 
 Kaggle — IT Asset Management Dataset  
 **Rows:** 50  
@@ -35,7 +35,7 @@ Kaggle — IT Asset Management Dataset
 - `WarrantyStatus`
 - `IsUnderutilized`
 
-## 🧩 Data Modeling
+## Data Modeling
 
 The model uses:
 
@@ -53,13 +53,13 @@ The model uses:
 - `LicenseExpiry` → `DateTable[Date]`
 
 
-## 🖥 Dashboard Pages
+##  Dashboard Pages
 
 # **PAGE 1 — Executive Summary Dashboard**
 
 ![Executive Dashboard](assets/dashboard_page1.png)
 
-### 🔍 **Key Highlights**
+###  **Key Highlights**
 
 - ✔ Total Asset Count  
 - ✔ Active vs. Inactive Assets  
@@ -85,14 +85,14 @@ The model uses:
 
 ![Lifecycle Dashboard](assets/dashboard_page2.png)
 
-### 🔍 **Key Highlights**
+###  **Key Highlights**
 
-- ✔ Lifecycle Distribution (In Lifecycle vs. EOL)  
-- ✔ Warranty Risk by Department  
-- ✔ Warranty Expiry Timeline  
-- ✔ Asset Age Distribution  
-- ✔ Underutilized Assets by Business Units  
-- ✔ High-Risk Asset Matrix  
+-  Lifecycle Distribution (In Lifecycle vs. EOL)  
+-  Warranty Risk by Department  
+-  Warranty Expiry Timeline  
+-  Asset Age Distribution  
+-  Underutilized Assets by Business Units  
+-  High-Risk Asset Matrix  
 
 ### **Visuals on This Page**
 
@@ -106,7 +106,7 @@ The model uses:
 
 
 
-## 🧠 Technical Skills Demonstrated
+## Technical Skills Demonstrated
 
 ### **Power BI Skills**
 - Power Query cleaning & normalization  
@@ -125,7 +125,7 @@ The model uses:
 
 
 
-## 📂 Folder Structure
+##  Folder Structure
 
 IT-Asset-Management-PowerBI-Dashboard/
 │── IT_Asset_Management.pbix
@@ -135,11 +135,5 @@ IT-Asset-Management-PowerBI-Dashboard/
 │ ├── dashboard_page2.png
 │ └── kpi_summary.png
 
-IT-Asset-Management-PowerBI-Dashboard/
-│── IT_Asset_Management.pbix
-│── README.md
-│── assets/
-│ ├── dashboard_page1.png
-│ ├── dashboard_page2.png
-│ └── kpi_summary.png
+
 
