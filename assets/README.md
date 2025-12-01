@@ -57,7 +57,7 @@ The model uses:
 
 # **PAGE 1 — Executive Summary Dashboard**
 
-![Dashboard Page 1](assets/dashboard_page1.png.jpg)
+![Dashboard Page 1](assets/dashboard_page1.png)
 
 
 ###  **Key Highlights**
@@ -84,7 +84,7 @@ The model uses:
 
 # **PAGE 2 — Lifecycle & Optimization Dashboard**
 
-![Dashboard Page 2](assets/dashboard_page2.png.jpg)
+![Dashboard Page 2](assets/dashboard_page2.png)
 
 ###  **Key Highlights**
 
